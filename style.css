@@ -1,0 +1,515 @@
+.frame{
+    position: relative;
+    width: 1920px;
+    height: 3165px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+      
+    background: #FFFFFF;
+}
+
+/*menu i logo w naglowku*/
+.logo {
+    float: left;
+    width: 100px;
+    height: 70px;
+    margin-left: 63px;
+    margin-top: 13px;
+  }
+  #navigation-container {
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+  }
+  .navigation-bar {
+    height: 100px;
+    width: 100%;
+    text-align:center;
+
+    background-color:#ffffff;
+  }
+  .navigation-bar img{
+    float:left;
+  }
+  .navigation-bar ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    margin-left: 670px;
+    top: 32px;
+    overflow: hidden;
+  }
+  .navigation-bar li {
+    list-style-type: none;
+    padding: 0px;
+    display: inline;
+  }
+  .navigation-bar li a {
+    display: inline;
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+
+    color: #11455B;
+  }
+  li a:hover {
+    background-color: white;
+  }
+ 
+/*tlo ze zdjeciem*/
+.rectangle1{
+    width: 1920px;
+    height: 990px;
+    top: 0px;
+    left: 0px;
+    background-image: url("Header_photo.jpg");
+    background-size: cover;
+    background-position-y: -215px;
+    background-repeat: no-repeat;
+}
+
+/*napis na zdjeciu*/
+h1{
+    position: absolute;
+    width: 548px;
+    height: 182px;
+    left: 1042px;
+    top: 548px;
+    
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 90px;
+    
+    color: #FFFFFF;
+    }  
+
+/*pomaranczowy prostokat*/
+.rectangle11{
+    position: absolute;
+    width: 538px;
+    height: 37px;
+    left: 1042px;
+    top: 642px;
+    
+    background: #FFAF20;
+  }
+.rectangle12{
+    position: absolute;
+    width: 178px;
+    height: 35px;
+    left: 1042px;
+    top: 732px;
+
+    background: #FFAF20;
+}
+
+/*tlo z 3 obrazkami*/    
+.rectangle2{
+    width: 1920px;
+    height: 990px;
+}
+
+/*tekst most viewed*/
+h2{
+    position: absolute;
+    width: 296px;
+    height: 69px;
+    left: 320px;
+    top: 1145px;
+
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 68px;
+
+    color: #000000;
+}
+
+/*podzial w poziomie*/
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    font-size: 0;
+    text-align: center;
+}
+
+.child {
+    width: 400px;
+    height: 400px;
+    margin: 18px;
+    display: inline-block;
+    font-size: medium;
+    text-align: left;
+}   
+
+/*czcionka nazwa miast*/
+h3{
+    position: absolute;
+    height: 36px;
+    top: 1525px;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+
+    color: #000000;
+}
+
+/*czcionka opis miast*/
+p1{
+    position: absolute;
+    width: 413px;
+    height: 128px;
+    top: 1596px;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #11455B;
+}
+
+/*miniaturki miast*/
+.imgg {
+    position: absolute;
+    width: 413px;
+    height: 250px;
+    top: 1268px;
+  }
+
+/*kreska*/
+.rectangle22{
+    position: absolute;
+    width: 413px;
+    height: 2px;
+    top: 1775px;
+
+    background: #11455B;
+}
+
+/*czcionka read more*/
+p2 a{
+    position: absolute;
+    width: 150px;
+    height: 21px;
+    top: 1797px;
+
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+
+    color: #FFAF20;
+}
+
+/*czcionka gallery*/
+p3 a{
+    position: absolute;
+    width: 48px;
+    height: 21px;
+    top: 1796px;
+    float: right;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+
+    color: #000000;
+}
+
+/*rozstawienie tekstu lewo-prawo*/
+.right{
+    float:right;
+    margin-right:40px;
+}
+.left{
+    float:left;
+    margin-left:15px;
+}
+
+/*tlo z okienkami*/
+.rectangle3{
+    width: 1920px;
+    height: 859px;
+    left: 0px;
+    top: 1982px;
+
+    background: #F8F3ED;
+}
+
+/*czcionka write us*/
+h4{
+    position: absolute;
+    width: 365px;
+    height: 69px;
+    left: 320px;
+    top: 2100px;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 68px;
+
+    color: #11455B;
+}
+
+/*----------logowanie-----------*/
+
+/* imie i email*/
+input[type=text], input[type=email] {
+    width: 414px;
+    height: 66px;
+    padding: 0px 20px;
+    margin-top: 250px;
+    margin-left: -8px;
+    display: inline-block;
+    border: 1px solid #11455B;
+    box-sizing: border-box;
+
+    background:#F8F3ED;
+}
+
+/*wiadomosc*/
+input[type=message]{
+    width: 848px;
+    height: 220px;
+    padding: 0px 20px;
+    padding-bottom: 170px;
+    margin: 2px 20px;
+    display: inline-block;
+    border: 1px solid #11455B;
+    box-sizing: border-box;
+
+    background: #F8F3ED;
+  }
+
+/*checkbox*/
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/*ukrycie standardowego wygladu*/
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+/* stworzenie nowego wygladu */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 77px;
+    height: 22px;
+    width: 22px;
+    background-color: #F8F3ED;
+    border: 1px solid #11455B;
+    box-sizing: border-box;
+}
+/*szare tlo po najechaniu kursorem*/
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+/*stworzenie znaczka*/
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+/* znaczek w kwadracie*/
+.container .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 4px;
+    height: 9px;
+    border: solid #11455B;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/*czcionka checkbox*/
+p5{
+    position: absolute;
+    width: 64px;
+    height: 31px;
+    left: 110px;
+    top: -5px;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 31px;
+
+    color: #11455B;
+}
+
+/*przycisk send*/
+button {
+    background-color: #FFAF20;
+    color: white;
+    padding: 14px 20px;
+    margin: 0px 0;
+    border: none;
+    cursor: pointer;
+    width: 848px;
+    height: 72px;
+    float: center;
+}
+  button:hover {
+    opacity: 0.8;
+}
+
+/*podzial w poziomie: imie, email*/
+.parent2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    font-size: 0;
+    text-align: center;
+}
+.child2 {
+    width: 400px;
+    margin: 18px;
+    display: inline-block;
+    font-size: medium;
+    text-align: left;
+}  
+
+/*podzial w pionie: message, send*/
+.parent1 {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    font-size: 0;
+    text-align: center;
+}
+.child1 {
+    width: 1000px;
+    margin: 18px;
+    display: inline-block;
+    font-size: medium;
+    text-align: center;
+} 
+
+/*czcionka nad polami*/
+p4{
+    position: absolute;
+    width: 67px;
+    height: 21px;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #11455B;
+    }
+
+/*stopka*/
+.footer{
+    width: 1920px;
+    height: 324px;
+    
+    background: white;
+}
+
+/*kreska*/
+    .rectanglef{
+    position: absolute;
+    width: 1280px;
+    height: 1px;
+    left: 320px;
+    top: 3000px;
+
+    background: #11455B;
+}
+
+/*logo stopka*/
+
+.content {
+    display: block;
+    padding: 10px;
+    margin: 0px auto;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 31px;
+} 
+
+.logo2 {
+    float: left;
+    width: 100px;
+    height: 80px;
+    margin-left: 320px;
+    margin-top: 100px;
+
+    color: #000000;
+}
+
+/*tekst w stopce*/
+.foot1{
+    width: 400px;
+    height: 31px;
+    margin-left: 474px;
+    margin-top:100px;
+}
+.foot2{
+    position: absolute;
+    width: 400px;
+    height: 31px;
+    left: 1443px;
+    top: 3045px;
+
+    color: #6E6E6E;
+}
+
+
+
+  
